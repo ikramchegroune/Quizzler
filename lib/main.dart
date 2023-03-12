@@ -90,7 +90,7 @@ class _QuizlerPageState extends State<QuizlerPage> {
         height: 90.0,
          child: Expanded(
            child: Padding(
-             padding: const EdgeInsets.all(15.0),
+            padding: const EdgeInsets.all(15.0),
              child: TextButton(
                style: TextButton.styleFrom(backgroundColor: Colors.green,
                ),
@@ -110,7 +110,7 @@ class _QuizlerPageState extends State<QuizlerPage> {
        SizedBox(
         width: 40.0,
         height: 90.0,
-         child: Expanded(
+        child: Expanded(
                      child: Padding(
          padding: const EdgeInsets.all(15.0),
          child: TextButton(
@@ -131,7 +131,7 @@ class _QuizlerPageState extends State<QuizlerPage> {
        SizedBox(
         height: 30.0,
         width:6.0,
-         child: Row(
+        child: Row(
           children: scoreKeeper
          ),
        )
